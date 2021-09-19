@@ -1,7 +1,9 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
 import './App.css';
+import About from './components/About';
+
 function App() {
 	return (
 		<div className="app">
@@ -9,19 +11,17 @@ function App() {
 				<div className="col-11">
 					<Navbar />
 					<div className="home">
-						<div className="home-text">
-							<h1>Book your</h1>
-
-							<h1 className="home-text-2">Project today!</h1>
+						<div className="col=1 App_about bg-white">
+							<About></About>
 						</div>
 						<div className="home-btn">
 							<button>Book It Now</button>
 						</div>
 					</div>
 				</div>
-				<div className="col=1 App_sidebar bg-white">
-					<Sidebar />
-				</div>
+			</div>
+			<div className="col=1 App_footer bg-white">
+				<Footer />
 			</div>
 		</div>
 	);

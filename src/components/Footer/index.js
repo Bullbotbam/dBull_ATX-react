@@ -5,7 +5,6 @@ import { LinkedIn } from '@material-ui/icons';
 import { GitHub } from '@material-ui/icons';
 import MailIcon from '@material-ui/icons/Mail';
 import { IconButton } from '@material-ui/core';
-import { DragHandleOutlined } from '@material-ui/icons';
 
 const Sidebar = () => {
 	return (
