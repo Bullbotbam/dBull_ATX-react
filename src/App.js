@@ -6,23 +6,8 @@ import About from './components/About';
 
 function App() {
 	return (
-		<div className="app">
-			<div className="row">
-				<div className="col-11">
-					<Navbar />
-					<div className="home">
-						<div className="col=1 App_about bg-white">
-							<About></About>
-						</div>
-						<div className="home-btn">
-							<button>Book It Now</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div className="col=1 App_footer bg-white">
-				<Footer />
-			</div>
+		<div>
+			<Navbar />
 		</div>
 	);
 }

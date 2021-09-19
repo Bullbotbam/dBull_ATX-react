@@ -1,7 +1,7 @@
 import { Container } from '@material-ui/core';
 import React from 'react';
 
-function Content(props) {
+function Portfolio(props) {
 	return (
 		<Container>
 			{/* <Row>
@@ -11,4 +11,4 @@ function Content(props) {
 	);
 }
 
-export default Content;
+export default Portfolio;
