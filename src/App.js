@@ -14,12 +14,13 @@ function App() {
 						<div className="col=1 App_about bg-white">
 							<About></About>
 						</div>
-						<div className="home-btn">
+						{/* <div className="home-btn">
 							<button>Book It Now</button>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>
+
 			<div className="col=1 App_footer bg-white">
 				<Footer />
 			</div>
