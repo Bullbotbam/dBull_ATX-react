@@ -6,11 +6,16 @@ function About() {
 		<Container>
 			<div className="container">
 				<div className="my-2">
-					<Typography gutterBottom variant="h3" id="about">
+					<Typography
+						className="about-title"
+						gutterBottom
+						variant="h3"
+						id="about"
+					>
 						Who is dBull?
 					</Typography>
 
-					<Typography variant="subtitle1">
+					<Typography className="about-body" variant="subtitle1">
 						My broad knowledge base and critical thinking skills have allowed me
 						to be a benefit to every team I have been a part of. To my peers, I
 						have been known to offer insightful analysis to challenges they may

@@ -4,10 +4,11 @@ import Footer from './components/Footer';
 import './App.css';
 import About from './components/About';
 import ContactForm from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
-	// 	const [contactSelected, setContactSelected] = useState(false);
-	// 	const [resumeSelected, setResumeSelected] = useState(false);
+	const [contactSelected, setContactSelected] = useState(false);
+	const [resumeSelected, setResumeSelected] = useState(false);
 
 	// 	const [technologies] = useState([
 	// 		{
@@ -34,20 +35,28 @@ function App() {
 		<div className="app">
 			<div className="row">
 				<div className="col-11">
-					<Navbar />
-					<div className="home">
-						<div className="col=1 App_about bg-white">
-							<About></About>
-						</div>
-						<div className="home-btn">
-							<button>Book It Now</button>
-						</div>
-					</div>
+					<Navbar
+						contactSelected={contactSelected}
+						setContactSelected={setContactSelected}
+						resumeSelected={resumeSelected}
+						setResumeSelected={setResumeSelected}
+					/>
+					<main className="home">
+						{
+							(!contactSelected,
+							!resumeSelected ? (
+								<>
+									<About></About>
+								</>
+							) : (
+								<ContactForm />
+							))
+						}
+					</main>
 				</div>
 			</div>
-			<div className="col=1 App_footer bg-white">
-				<Footer />
-			</div>
+
+			<Footer />
 		</div>
 	);
 }
