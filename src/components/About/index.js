@@ -1,6 +1,6 @@
 import React from 'react';
 // import Content from '../Content';
-import coverImage from '../../assets/cover/dbull_selfie-min.png';
+import coverImage from '../../assets/cover/';
 
 function About() {
 	return (
@@ -28,6 +28,7 @@ function About() {
 					</p>
 					<img
 						src={coverImage}
+						align="center"
 						className="my-2"
 						style={{ width: '20%' }}
 						alt="cover"
