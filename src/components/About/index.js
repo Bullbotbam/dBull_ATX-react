@@ -1,15 +1,16 @@
 import React from 'react';
-// import Content from '../Content';
-import coverImage from '../../assets/cover/dbull_selfie-min.png';
+import { Container, Typography } from '@material-ui/core';
 
 function About() {
 	return (
-		<section>
+		<Container>
 			<div className="container">
 				<div className="my-2">
-					<h1 id="about">Who is dBull?</h1>
+					<Typography gutterBottom variant="h3" id="about">
+						Who is dBull?
+					</Typography>
 
-					<p>
+					<Typography variant="subtitle1">
 						My broad knowledge base and critical thinking skills have allowed me
 						to be a benefit to every team I have been a part of. To my peers, I
 						have been known to offer insightful analysis to challenges they may
@@ -25,16 +26,17 @@ function About() {
 						to enhance my abilities. I find discovery an essential role in
 						business development and enhances preparedness. This is why I am a
 						lifelong learner.
-					</p>
-					<img
-						src={coverImage}
-						className="my-2"
-						style={{ width: '20%' }}
-						alt="cover"
-					/>
+					</Typography>
 				</div>
+				<div
+					style={{
+						display: 'flex',
+						flexDirection: 'row',
+						alignItems: 'center',
+					}}
+				></div>
 			</div>
-		</section>
+		</Container>
 	);
 }
 
