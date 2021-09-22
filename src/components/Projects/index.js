@@ -13,12 +13,12 @@ import {
 	Container,
 	CardActions,
 } from '@material-ui/core';
-import { PhotoCamera } from '@material-ui/icons';
+import AttachFileIcon from '@material-ui/icons/AttachFile';
 import useStyles from '../../styles';
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const cards = [1, 2, 3, 4, 5, 6];
 
-function PhotoAlbum() {
+const Projects = () => {
 	const classes = useStyles();
 
 	return (
@@ -26,44 +26,11 @@ function PhotoAlbum() {
 			<CssBaseline />
 			<AppBar position="relative">
 				<Toolbar>
-					<PhotoCamera className={classes.icon} />
-					<Typography variant="h6">Photo Album</Typography>
+					<AttachFileIcon className={classes.icon} />
+					<Typography variant="h6">Past Projects</Typography>
 				</Toolbar>
 			</AppBar>
 			<main>
-				<div className={classes.container}>
-					<Container maxWidth="sm">
-						<Typography
-							variant="h2"
-							align="center"
-							color="textPrimary"
-							gutterBottom
-						>
-							Photo Album
-						</Typography>
-						<Typography
-							variamt="h5"
-							align="center"
-							color="textSecondary"
-							paragraph
-						>
-							This is the beinning of then end of the beginning of the start to
-							get ready to end the beginning and so on and so on.
-						</Typography>
-						<div className={classes.buttons}>
-							<Grid container spacing={2} justify="center">
-								<Grid item>
-									<Button variant="contained" color="primary">
-										See My Phtos
-									</Button>
-									<Button variant="outlined" color="primary">
-										Secondary Action
-									</Button>
-								</Grid>
-							</Grid>
-						</div>
-					</Container>
-				</div>
 				<Container className={classes.cardGrid} maxWidth="md">
 					<Grid container spacing={4}>
 						{cards.map((card) => (
@@ -98,16 +65,8 @@ function PhotoAlbum() {
 					</Grid>
 				</Container>
 			</main>
-			<footer className={classes.footer}>
-				<Typography variant="h6" align="center" gutterBottom>
-					Footer
-				</Typography>
-				<Typography variant="subtitle1" align="center" color="textSecondary">
-					A message or Social Media links
-				</Typography>
-			</footer>
 		</>
 	);
-}
+};
 
-export default PhotoAlbum;
+export default Projects;

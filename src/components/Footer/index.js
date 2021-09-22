@@ -8,7 +8,7 @@ import { IconButton } from '@material-ui/core';
 
 const Sidebar = () => {
 	return (
-		<div className="sidebar">
+		<footer className="sidebar">
 			<div className="sidebarDown">
 				<IconButton
 					className="icon-btn"
@@ -44,7 +44,7 @@ const Sidebar = () => {
 					<EmailOutlinedIcon fontSize="large" />
 				</IconButton> */}
 			</div>
-		</div>
+		</footer>
 	);
 };
 

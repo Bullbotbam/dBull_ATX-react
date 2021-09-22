@@ -9,13 +9,13 @@ function About() {
 					<Typography
 						className="about-title"
 						gutterBottom
-						variant="h3"
+						variant="h2"
 						id="about"
 					>
 						Who is dBull?
 					</Typography>
 
-					<Typography className="about-body" variant="subtitle1">
+					<Typography className="about-body" variant="h5">
 						My broad knowledge base and critical thinking skills have allowed me
 						to be a benefit to every team I have been a part of. To my peers, I
 						have been known to offer insightful analysis to challenges they may
