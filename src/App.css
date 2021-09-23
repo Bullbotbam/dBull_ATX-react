@@ -108,7 +108,7 @@
 	margin-bottom: 50px;
 	padding: 20px;
 }
-.sidebar {
+.footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -116,25 +116,25 @@
 	padding: 10px 20px;
 	margin-top: 315px;
 }
-.sidebarTop {
+.footerIcons {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
 }
-.sidebarTop > a {
+.footerIcons > a {
 	text-decoration: none;
 	border: none;
 	font-weight: bold;
 	color: black;
 	margin-top: 20px;
 }
-.sidebarTop > a:hover {
+.footerIcons > a:hover {
 	color: #df784d;
 	text-decoration: none;
 	border: none;
 }
-.sidebarDown {
+.footerIcons {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;

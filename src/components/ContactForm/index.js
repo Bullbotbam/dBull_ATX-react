@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core';
 import { Container, Typography, Button, TextField } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
 import { send } from 'emailjs-com';
+import '../../App.css';
 
 const useStyles = makeStyles((theme) => ({
 	button: {
@@ -50,7 +51,7 @@ function ContactForm() {
 	}
 
 	return (
-		<Container>
+		<Container style={{ paddingTop: '200px' }}>
 			<Typography gutterBottom variant="h4">
 				Hit Me Up!
 			</Typography>

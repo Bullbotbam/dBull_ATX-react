@@ -40,8 +40,8 @@ function App() {
 				<Typography variant="h6" align="center" gutterBottom>
 					<Footer />
 				</Typography>
-				<Typography variant="subtitle1" align="center" color="textSecondary">
-					A message or Social Media links
+				<Typography variant="h5" align="center" style={{ color: '#757575' }}>
+					&copy;2021 by dBull_ATX
 				</Typography>
 			</footer>
 			;

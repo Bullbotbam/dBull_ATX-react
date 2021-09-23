@@ -81,7 +81,7 @@ const Resume = () => {
 			<Typography variant="button">Certificate </Typography>
 
 			<Typography variant="h5">
-				Central Connecticut State University New Britain, Connnecticut
+				Central Connecticut State University New Britain, Connecticut
 			</Typography>
 			<Typography variant="button">Bachelors in Business Management</Typography>
 		</Container>

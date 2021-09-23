@@ -6,10 +6,10 @@ import { GitHub } from '@material-ui/icons';
 // import { EmailOutlinedIcon } from '@material-ui/icons';
 import { IconButton } from '@material-ui/core';
 
-const Sidebar = () => {
+const Footer = () => {
 	return (
-		<footer className="sidebar">
-			<div className="sidebarDown">
+		<footer className="footer">
+			<div className="footerIcons">
 				<IconButton
 					className="icon-btn"
 					aria-label="Twitter.com"
@@ -48,4 +48,4 @@ const Sidebar = () => {
 	);
 };
 
-export default Sidebar;
+export default Footer;

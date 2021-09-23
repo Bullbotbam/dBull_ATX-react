@@ -24,12 +24,12 @@ const Projects = () => {
 	return (
 		<>
 			<CssBaseline />
-			<AppBar position="relative">
+			{/* <AppBar position="relative">
 				<Toolbar>
 					<AttachFileIcon className={classes.icon} />
 					<Typography variant="h6">Past Projects</Typography>
 				</Toolbar>
-			</AppBar>
+			</AppBar> */}
 			<main>
 				<Container className={classes.cardGrid} maxWidth="md">
 					<Grid container spacing={4}>
