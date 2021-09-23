@@ -3,6 +3,7 @@ import { validateEmail } from '../../utils/helpers';
 import { makeStyles } from '@material-ui/core';
 import { Container, Typography, Button, TextField } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
+import { send } from 'emailjs-com';
 
 const useStyles = makeStyles((theme) => ({
 	button: {
