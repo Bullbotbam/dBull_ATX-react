@@ -1,94 +1,84 @@
-import { Container } from '@material-ui/core';
-import React from 'react';
+import * as React from 'react';
+import CssBaseline from '@mui/material/CssBaseline';
+import Grid from '@mui/material/Grid';
+import Container from '@mui/material/Container';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Header from './Header';
+import MainFeaturedPost from './MainFeaturedPost';
+import FeaturedPost from './FeaturedPost';
+import Main from './Main';
+import Footer from './Footer';
+import post1 from './blog-post.1.md';
+import post2 from './blog-post.2.md';
+import post3 from './blog-post.3.md';
 
-function Content(props) {
+const sections = [
+	{ title: 'Technology', url: '#' },
+	{ title: 'Design', url: '#' },
+	{ title: 'Culture', url: '#' },
+	{ title: 'Business', url: '#' },
+	{ title: 'Politics', url: '#' },
+	{ title: 'Opinion', url: '#' },
+	{ title: 'Science', url: '#' },
+	{ title: 'Health', url: '#' },
+	{ title: 'Style', url: '#' },
+	{ title: 'Travel', url: '#' },
+];
+
+const mainFeaturedPost = {
+	title: 'Title of a longer featured blog post',
+	description:
+		"Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
+	image: 'https://source.unsplash.com/random',
+	imageText: 'main image description',
+	linkText: 'Continue reading…',
+};
+
+const featuredPosts = [
+	{
+		title: 'Featured post',
+		date: 'Nov 12',
+		description:
+			'This is a wider card with supporting text below as a natural lead-in to additional content.',
+		image: 'https://source.unsplash.com/random',
+		imageLabel: 'Image Text',
+	},
+	{
+		title: 'Post title',
+		date: 'Nov 11',
+		description:
+			'This is a wider card with supporting text below as a natural lead-in to additional content.',
+		image: 'https://source.unsplash.com/random',
+		imageLabel: 'Image Text',
+	},
+];
+
+const posts = [post1, post2, post3];
+
+const theme = createTheme();
+
+export default function Blog() {
 	return (
-		<>
+		<ThemeProvider theme={theme}>
 			<CssBaseline />
-			<AppBar position="relative">
-				<Toolbar>
-					<PhotoCamera className={classes.icon} />
-					<Typography variant="h6">Photo Album</Typography>
-				</Toolbar>
-			</AppBar>
-			<main>
-				<div className={classes.container}>
-					<Container maxWidth="sm">
-						<Typography
-							variant="h2"
-							align="center"
-							color="textPrimary"
-							gutterBottom
-						>
-							Photo Album
-						</Typography>
-						<Typography
-							variamt="h5"
-							align="center"
-							color="textSecondary"
-							paragraph
-						>
-							This is the beinning of then end of the beginning of the start to
-							get ready to end the beginning and so on and so on.
-						</Typography>
-						<div className={classes.buttons}>
-							<Grid container spacing={2} justify="center">
-								<Grid item>
-									<Button variant="contained" color="primary">
-										See My Phtos
-									</Button>
-									<Button variant="outlined" color="primary">
-										Secondary Action
-									</Button>
-								</Grid>
-							</Grid>
-						</div>
-					</Container>
-				</div>
-				<Container className={classes.cardGrid} maxWidth="md">
+			<Container maxWidth="lg">
+				<Header title="Blog" sections={sections} />
+				<main>
+					<MainFeaturedPost post={mainFeaturedPost} />
 					<Grid container spacing={4}>
-						{cards.map((card) => (
-							<Grid item key={card} xs={12} sm={6} md={4}>
-								<Card className={classes.card}>
-									<CardMedia
-										className={classes.cardMedia}
-										image="https://source.unsplash.com/random"
-										title="Image title"
-									/>
-									<CardContent className={classes.CardContent}>
-										<Typography gutterBottom variant="h5">
-											Heading
-										</Typography>
-										<Typography>
-											This is a media card to be used for card content. There
-											may need to be more information to get the proper
-											perspective.
-										</Typography>
-									</CardContent>
-									<CardActions>
-										<Button size="small" color="primary">
-											View
-										</Button>
-										<Button size="small" color="primary">
-											Edit
-										</Button>
-									</CardActions>
-								</Card>
-							</Grid>
+						{featuredPosts.map((post) => (
+							<FeaturedPost key={post.title} post={post} />
 						))}
 					</Grid>
-				</Container>
-			</main>
-			<footer className={classes.footer}>
-				<Typography variant="h6" align="center" gutterBottom>
-					Footer
-				</Typography>
-				<Typography variant="subtitle1" align="center" color="textSecondary">
-					A message or Social Media links
-				</Typography>
-			</footer>
-		</>
+				</main>
+			</Container>
+			<Footer
+				title="Footer"
+				description="Something here to give the footer a purpose!"
+			/>
+		</ThemeProvider>
 	);
 }
-
-export default Content;

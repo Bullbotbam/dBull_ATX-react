@@ -1,9 +1,15 @@
 import React from 'react';
+import { Download } from '../Download';
 
 const Resume = () => {
 	return (
 		<div>
-			<img src="/assets/resume/Resume 9_1_pdf.png" />
+			<div>
+				<img src="/assets/resume/Resume 9_1_pdf.png" />
+			</div>
+			<div>
+				<Download />
+			</div>
 		</div>
 	);
 };
