@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles, Container, Typography } from '@material-ui/core';
+import FileDownload from '../FileDownload';
 
 const useStyles = makeStyles({
 	root: {
@@ -15,6 +16,19 @@ const Resume = () => {
 
 	return (
 		<Container style={{ color: '#757575' }} className="resumeBody">
+			<Typography variant="h2">Donald Bull</Typography>
+			<Typography variant="h5">
+				Austin, Texas - www.linkedin.com/in/donaldjbull-atx ||
+				https://github.com/Bullbotbam
+			</Typography>
+			<Typography variant="button">
+				SEEKING A POSITION WITH A COMPANY WHO CAN VALUE THE BROAD KNOWLEDGE BASE
+				MY 10 PLUS YEARS OF MANAGEMENT CAN BRING TO ANY TEAM. MY TECHNICAL
+				SKILLS, PROGRAM DEVELOPMENT, AND TRAINING EXPERIENCE WILL ALLOW ME TO BE
+				A LEGITIMATE ASSET.
+			</Typography>
+			<br />
+			<br />
 			<Typography variant="h4">Experience</Typography>
 			<Typography variant="h5">
 				dBull_ATX Austin, Texas Web Developer Present
@@ -84,6 +98,9 @@ const Resume = () => {
 				Central Connecticut State University New Britain, Connecticut
 			</Typography>
 			<Typography variant="button">Bachelors in Business Management</Typography>
+			<div className="resButton" color="text.secondary">
+				<FileDownload />
+			</div>
 		</Container>
 	);
 };
