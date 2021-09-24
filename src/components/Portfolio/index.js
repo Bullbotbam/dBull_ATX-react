@@ -14,8 +14,8 @@ import {
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HttpIcon from '@material-ui/icons/Http';
 import useStyles from '../../styles';
-
-const cards = [
+import techBlog from '../../img/just-tech-blog.png';
+const cardInfo = [
 	{
 		Project: 1,
 		name: 'Project 1',
@@ -59,7 +59,7 @@ const cards = [
 	{
 		Project: 6,
 		name: 'Just Tech Blog',
-		img: '/public/img/just-tech-blog.png',
+		img: techBlog,
 		github: 'https://github.com/Bullbotbam/just_tech_blog',
 		demo: 'https://afternoon-anchorage-01216.herokuapp.com/login',
 		dependencies:
@@ -77,25 +77,26 @@ const Portfolio = () => {
 			<main>
 				<Container className={classes.cardGrid} maxWidth="md">
 					<Grid container spacing={4}>
-						{cards.map((card) => (
-							<Grid item key={card} xs={12} sm={6} md={4}>
+						{/*  mapping over cardInfo to get each project. The key of index allows each project to have a separate key */}
+						{cardInfo.map((project, index) => (
+							<Grid item key={index} xs={12} sm={6} md={4}>
 								<Card
 									className={classes.card}
 									style={{ alignContent: 'center' }}
 								>
 									<CardMedia
 										className={classes.cardMedia}
-										image={card.img}
+										image={project.img}
 										title="Image title"
 									/>
 									<CardContent className={classes.CardContent}>
 										<Typography gutterBottom variant="h5">
-											{card.name}
+											{project.name}
 										</Typography>
 										<Typography style={{ fontWeight: 'bolder' }}>
 											Dependencies:{' '}
 										</Typography>
-										<Typography>{card.dependencies}</Typography>
+										<Typography>{project.dependencies}</Typography>
 									</CardContent>
 									<CardActions>
 										<GitHubIcon />
