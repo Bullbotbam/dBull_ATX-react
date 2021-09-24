@@ -4,7 +4,7 @@ import { Container, Typography } from '@material-ui/core';
 function About() {
 	return (
 		<Container>
-			<div className="container">
+			<div className="container" style={{ color: '#757575' }}>
 				<div className="my-2">
 					<Typography
 						className="about-title"

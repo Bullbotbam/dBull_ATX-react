@@ -3,12 +3,16 @@ import { validateEmail } from '../../utils/helpers';
 import { makeStyles } from '@material-ui/core';
 import { Container, Typography, Button, TextField } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
-import { send } from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import '../../App.css';
+import { ClassSharp } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
 	button: {
 		margin: theme.spacing(1),
+	},
+	bodyColor: {
+		color: '#757575',
 	},
 }));
 
@@ -48,10 +52,25 @@ function ContactForm() {
 	function handleSubmit(e) {
 		e.preventDefault();
 		console.log(formState);
+		emailjs
+			.sendForm(
+				'service_jnjnx5k',
+				'template_ztumzxh',
+				formState,
+				'user_r1p1ediIOkyrxFDqbIEnu'
+			)
+			.then(
+				(result) => {
+					console.log(result.text);
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			);
 	}
 
 	return (
-		<Container style={{ paddingTop: '200px' }}>
+		<Container className={classes.bodyColor}>
 			<Typography gutterBottom variant="h4">
 				Hit Me Up!
 			</Typography>

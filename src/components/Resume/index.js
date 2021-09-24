@@ -1,19 +1,8 @@
 import React from 'react';
-import { makeStyles, Container, Typography } from '@material-ui/core';
+import { Container, Typography } from '@material-ui/core';
 import FileDownload from '../FileDownload';
 
-const useStyles = makeStyles({
-	root: {
-		maxWidth: 345,
-	},
-	media: {
-		height: 140,
-	},
-});
-
 const Resume = () => {
-	const classes = useStyles();
-
 	return (
 		<Container style={{ color: '#757575' }} className="resumeBody">
 			<Typography variant="h2">Donald Bull</Typography>
