@@ -12,12 +12,12 @@ import {
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HttpIcon from '@material-ui/icons/Http';
 import useStyles from '../../styles';
-import techBlog from '../../img/just-tech-blog.png';
-import highfive from '../../img/highfive.PNG';
-import noteTaker from '../../img/note-taker.png';
-import dinnerNMovie from '../../img/dinner_n_movie.png';
-import budget from '../../img/budget_tracker.gif';
-import knowMore from '../../img/know-more.gif';
+import techBlog from '../../assets/img/just-tech-blog.png';
+import highfive from '../../assets/img/highfive.PNG';
+import noteTaker from '../../assets/img/note-taker.png';
+import dinnerNMovie from '../../assets/img/dinner_n_movie.png';
+import budget from '../../assets/img/budget_tracker.gif';
+import knowMore from '../../assets/img/know-more.gif';
 
 const cardInfo = [
 	{
@@ -25,7 +25,7 @@ const cardInfo = [
 		name: 'High5!',
 		img: highfive,
 		github: 'https://github.com/Bullbotbam/high-five',
-		demo: '$demo',
+		demo: 'https://evening-oasis-97339.herokuapp.com/',
 		dependencies:
 			'node, express, mysql, mysql2, sequelize, handlebars, dotenv, connect-session-sequelize, bcrypt,',
 	},
@@ -105,19 +105,12 @@ const Portfolio = () => {
 										<Typography>{project.dependencies}</Typography>
 									</CardContent>
 									<CardActions>
-										<IconButton>
-											<GitHubIcon
-												onClick={() =>
-													window.open(
-														'https://github.com/Bullbotbam/just_tech_blog',
-														'_blank'
-													)
-												}
-											/>
-										</IconButton>
-										<IconButton>
+										<a href={project.github} target="_blank">
+											<GitHubIcon fontSize="large" />
+										</a>
+										<a href={project.demo} target="_blank">
 											<HttpIcon fontSize="large" />
-										</IconButton>
+										</a>
 									</CardActions>
 								</Card>
 							</Grid>
