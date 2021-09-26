@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import { makeStyles } from '@material-ui/core';
 import { Container, Typography, Button, TextField } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
 import emailjs from 'emailjs-com';
 import '../../App.css';
-import { ClassSharp } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
 	button: {
@@ -17,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function ContactForm() {
+	const form = useRef();
 	const classes = useStyles();
 	const [formState, setFormState] = useState({
 		name: '',
@@ -56,7 +56,7 @@ function ContactForm() {
 			.sendForm(
 				'service_jnjnx5k',
 				'template_ztumzxh',
-				formState,
+				form.current,
 				'user_r1p1ediIOkyrxFDqbIEnu'
 			)
 			.then(
@@ -74,9 +74,10 @@ function ContactForm() {
 			<Typography gutterBottom variant="h4">
 				Hit Me Up!
 			</Typography>
-			<form onSubmit={handleSubmit}>
+			<form ref={form} onSubmit={handleSubmit}>
 				<div>
 					<TextField
+						type="name"
 						id="outlined-basic"
 						onBlur={handleChange}
 						label="Full name"
@@ -118,6 +119,8 @@ function ContactForm() {
 					color="primary"
 					className={classes.button}
 					endIcon={<SendIcon />}
+					type="submit"
+					value="Send"
 				>
 					Send it to me!
 				</Button>
