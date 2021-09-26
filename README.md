@@ -2,7 +2,7 @@
 
 <br>
 
-<img src='src/assets/cover/dbull_atx_logo.png' width='196' height='196'>
+<img align="center" src='src/assets/cover/dbull_atx_logo.png' width='196' height='196'>
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@
 - [Contributing](#contributing)
 - [Issues](#issues)
 - [Tests](#tests)
-- [Links](#links)
+- [Dependencies_Used](#dependencies)
 
 ## Description
 
@@ -58,10 +58,12 @@ There may be slight challenges with all functionality as of initial deployment
 
 No testing was done for this app
 
-## Links
+## Dependencies
 
+<p>
 <img src="src/assets/logos/mongoose-js-logo.png" width="64" height="64">
 <img src="src/assets/logos/graphql.png" width="64" height="64">
 <img src="src/assets/logos/express-js-logo.png" width="64" height="64">
 <img src="src/assets/logos/reactjs.png" width="64" height="64">
 <img src="src/assets/logos/node-js-logo.png" width="64" height="64">
+</p>
