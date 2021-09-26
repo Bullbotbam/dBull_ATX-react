@@ -2,7 +2,9 @@
 
 <br>
 
-<img align="center" src='src/assets/cover/dbull_atx_logo.png' width='196' height='196'>
+<p style="align-contents: center;">
+<img  src='src/assets/cover/dbull_atx_logo.png' width='196' height='196'>
+</p>
 
 ## Table of Contents
 
