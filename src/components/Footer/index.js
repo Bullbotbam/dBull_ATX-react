@@ -3,7 +3,7 @@ import { Twitter } from '@material-ui/icons';
 import { Instagram } from '@material-ui/icons';
 import { LinkedIn } from '@material-ui/icons';
 import { GitHub } from '@material-ui/icons';
-import { EmailOutlinedIcon } from '@material-ui/icons';
+// import { EmailOutlinedIcon } from '@material-ui/icons';
 import { IconButton } from '@material-ui/core';
 
 const Sidebar = () => {
