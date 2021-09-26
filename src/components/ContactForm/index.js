@@ -70,6 +70,7 @@ function ContactForm() {
 					console.log(error.text);
 				}
 			);
+		setBody('');
 	}
 
 	return (
