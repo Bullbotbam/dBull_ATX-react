@@ -5,18 +5,11 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	const navStyle = {
-		color: 'white',
+		color: '#757575',
 		margin: '20px',
 	};
 	return (
 		<header className="navBar container">
-			<h2>
-				<Avatar
-					style={{ height: '96px', width: '96px' }}
-					alt="dbull avatar"
-					src={coverImage}
-				/>
-			</h2>
 			<nav>
 				<ul className="navLinks">
 					<Link style={navStyle} to="/about">
