@@ -13,7 +13,7 @@ import HttpIcon from '@material-ui/icons/Http';
 import useStyles from '../../styles';
 import techBlog from '../../assets/img/just-tech-blog.png';
 import highfive from '../../assets/img/highfive.PNG';
-import noteTaker from '../../assets/img/note-taker.png';
+import deepThoughts from '../../assets/img/deep-thoughts.png';
 import dinnerNMovie from '../../assets/img/dinner_n_movie.png';
 import budget from '../../assets/img/budget_tracker.gif';
 import knowMore from '../../assets/img/know-more.gif';
@@ -39,20 +39,22 @@ const cardInfo = [
 	},
 	{
 		Project: 3,
+		name: 'Deep Thoughts',
+		img: deepThoughts,
+		github: 'https://github.com/Bullbotbam/deep-thoughts',
+		demo: 'https://nameless-escarpment-98092.herokuapp.com/',
+		dependencies:
+			'graphql, mongoose, node.js, express, react, apollo-server-express, jsonwebtoken, material-ui, bcrypt',
+	},
+	{
+		Project: 4,
 		name: 'Budget Tracker',
 		img: budget,
 		github: 'https://github.com/Bullbotbam/budget-tracker',
 		demo: 'https://warm-lowlands-12680.herokuapp.com/',
 		dependencies: 'node.js, express, mongoose, morgan, compression, MongoDB',
 	},
-	{
-		Project: 4,
-		name: 'Note Taker',
-		img: noteTaker,
-		github: 'https://github.com/Bullbotbam/Note-taking-app',
-		demo: 'https://stark-castle-00977.herokuapp.com/',
-		dependencies: 'node.js, express, inquire, mysql, uuidv4',
-	},
+
 	{
 		Project: 5,
 		name: 'Know More',
