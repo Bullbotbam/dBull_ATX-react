@@ -1,17 +1,6 @@
-import {
-	Typography,
-	Card,
-	CardContent,
-	CardMedia,
-	CssBaseline,
-	Grid,
-	Container,
-	CardActions,
-	IconButton,
-} from '@material-ui/core';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import HttpIcon from '@material-ui/icons/Http';
-import useStyles from '../../styles';
+import React from 'react';
+import { makeStyles } from '@material-ui/core';
+
 import techBlog from '../../assets/img/just-tech-blog.png';
 import highfive from '../../assets/img/highfive.PNG';
 import noteTaker from '../../assets/img/note-taker.png';
@@ -25,7 +14,7 @@ const cardInfo = [
 		name: 'High5!',
 		img: highfive,
 		github: 'https://github.com/Bullbotbam/high-five',
-		demo: 'https://evening-oasis-97339.herokuapp.com/',
+		demo: '$demo',
 		dependencies:
 			'node, express, mysql, mysql2, sequelize, handlebars, dotenv, connect-session-sequelize, bcrypt,',
 	},
@@ -73,53 +62,12 @@ const cardInfo = [
 	},
 ];
 
-const Portfolio = () => {
+const useStyles = makeStyles((theme) => ({}));
+export default function () {
 	const classes = useStyles();
-
 	return (
-		<>
-			<CssBaseline />
-
-			<main>
-				<Container className={classes.cardGrid} maxWidth="md">
-					<Grid container spacing={4}>
-						{/*  mapping over cardInfo to get each project. The key of index allows each project to have a separate key */}
-						{cardInfo.map((project, index) => (
-							<Grid item key={index} xs={12} sm={6} md={4}>
-								<Card
-									className={classes.card}
-									style={{ alignContent: 'center' }}
-								>
-									<CardMedia
-										className={classes.cardMedia}
-										image={project.img}
-										title="Image title"
-									/>
-									<CardContent className={classes.CardContent}>
-										<Typography gutterBottom variant="h5">
-											{project.name}
-										</Typography>
-										<Typography style={{ fontWeight: 'bolder' }}>
-											Dependencies:{' '}
-										</Typography>
-										<Typography>{project.dependencies}</Typography>
-									</CardContent>
-									<CardActions>
-										<a href={project.github} target="_blank">
-											<GitHubIcon fontSize="large" />
-										</a>
-										<a href={project.demo} target="_blank">
-											<HttpIcon fontSize="large" />
-										</a>
-									</CardActions>
-								</Card>
-							</Grid>
-						))}
-					</Grid>
-				</Container>
-			</main>
-		</>
+		<div>
+			<h1>dbull_ATX</h1>
+		</div>
 	);
-};
-
-export default Portfolio;
+}
