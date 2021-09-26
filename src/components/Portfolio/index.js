@@ -1,9 +1,6 @@
 import {
 	Typography,
-	Backdrop,
-	Button,
 	Card,
-	CardActionArea,
 	CardContent,
 	CardMedia,
 	CssBaseline,
