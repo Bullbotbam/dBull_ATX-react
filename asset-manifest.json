@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dbull_atx-react/static/css/main.b5fbdbbb.chunk.css",
-    "main.js": "/dbull_atx-react/static/js/main.5840f6e0.chunk.js",
-    "main.js.map": "/dbull_atx-react/static/js/main.5840f6e0.chunk.js.map",
+    "main.js": "/dbull_atx-react/static/js/main.39389eca.chunk.js",
+    "main.js.map": "/dbull_atx-react/static/js/main.39389eca.chunk.js.map",
     "runtime-main.js": "/dbull_atx-react/static/js/runtime-main.e3513c13.js",
     "runtime-main.js.map": "/dbull_atx-react/static/js/runtime-main.e3513c13.js.map",
-    "static/js/2.144fac2f.chunk.js": "/dbull_atx-react/static/js/2.144fac2f.chunk.js",
-    "static/js/2.144fac2f.chunk.js.map": "/dbull_atx-react/static/js/2.144fac2f.chunk.js.map",
+    "static/js/2.00503e08.chunk.js": "/dbull_atx-react/static/js/2.00503e08.chunk.js",
+    "static/js/2.00503e08.chunk.js.map": "/dbull_atx-react/static/js/2.00503e08.chunk.js.map",
     "index.html": "/dbull_atx-react/index.html",
     "static/css/main.b5fbdbbb.chunk.css.map": "/dbull_atx-react/static/css/main.b5fbdbbb.chunk.css.map",
-    "static/js/2.144fac2f.chunk.js.LICENSE.txt": "/dbull_atx-react/static/js/2.144fac2f.chunk.js.LICENSE.txt",
+    "static/js/2.00503e08.chunk.js.LICENSE.txt": "/dbull_atx-react/static/js/2.00503e08.chunk.js.LICENSE.txt",
     "static/media/budget_tracker.032d2d9c.gif": "/dbull_atx-react/static/media/budget_tracker.032d2d9c.gif",
     "static/media/dbull_atx_logo.86b59963.png": "/dbull_atx-react/static/media/dbull_atx_logo.86b59963.png",
     "static/media/deep-thoughts.7eaf1837.png": "/dbull_atx-react/static/media/deep-thoughts.7eaf1837.png",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e3513c13.js",
-    "static/js/2.144fac2f.chunk.js",
+    "static/js/2.00503e08.chunk.js",
     "static/css/main.b5fbdbbb.chunk.css",
-    "static/js/main.5840f6e0.chunk.js"
+    "static/js/main.39389eca.chunk.js"
   ]
 }
