@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dbull_atx-react/static/css/main.b5fbdbbb.chunk.css",
-    "main.js": "/dbull_atx-react/static/js/main.39389eca.chunk.js",
-    "main.js.map": "/dbull_atx-react/static/js/main.39389eca.chunk.js.map",
+    "main.js": "/dbull_atx-react/static/js/main.fbd83a81.chunk.js",
+    "main.js.map": "/dbull_atx-react/static/js/main.fbd83a81.chunk.js.map",
     "runtime-main.js": "/dbull_atx-react/static/js/runtime-main.e3513c13.js",
     "runtime-main.js.map": "/dbull_atx-react/static/js/runtime-main.e3513c13.js.map",
     "static/js/2.00503e08.chunk.js": "/dbull_atx-react/static/js/2.00503e08.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.e3513c13.js",
     "static/js/2.00503e08.chunk.js",
     "static/css/main.b5fbdbbb.chunk.css",
-    "static/js/main.39389eca.chunk.js"
+    "static/js/main.fbd83a81.chunk.js"
   ]
 }
