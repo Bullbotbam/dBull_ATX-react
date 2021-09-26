@@ -1,6 +1,4 @@
 import React from 'react';
-import { Avatar } from '@material-ui/core';
-import coverImage from '../../assets/cover/dbull_atx_logo.png';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
