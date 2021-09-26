@@ -3,13 +3,16 @@ import { Twitter } from '@material-ui/icons';
 import { Instagram } from '@material-ui/icons';
 import { LinkedIn } from '@material-ui/icons';
 import { GitHub } from '@material-ui/icons';
-// import { EmailOutlinedIcon } from '@material-ui/icons';
+import { Typography } from '@material-ui/core';
 import { IconButton } from '@material-ui/core';
 
 const Footer = () => {
 	return (
 		<footer className="footer">
 			<div className="footerIcons">
+				<Typography variant="h5" align="center">
+					&copy;2021 by dBull_ATX
+				</Typography>
 				<IconButton
 					className="icon-btn"
 					aria-label="Twitter.com"
@@ -40,9 +43,6 @@ const Footer = () => {
 				>
 					<GitHub fontSize="large" />
 				</IconButton>
-				{/* <IconButton className="icon-btn">
-					<EmailOutlinedIcon fontSize="large" />
-				</IconButton> */}
 			</div>
 		</footer>
 	);
