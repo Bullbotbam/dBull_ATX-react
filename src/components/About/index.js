@@ -1,10 +1,21 @@
 import React from 'react';
-import { Container, Typography } from '@material-ui/core';
+import { Container, Typography, Avatar, Box } from '@material-ui/core';
+import coverImage from '../../assets/cover/dbull_atx_logo.png';
 
 function About() {
 	return (
 		<Container>
 			<div className="container" style={{ color: '#757575' }}>
+				<Box display="flex" justifyContent="center">
+					<Avatar
+						style={{
+							height: '384px',
+							width: '384px',
+						}}
+						alt="dbull avatar"
+						src={coverImage}
+					/>
+				</Box>
 				<div className="my-2">
 					<Typography
 						className="about-title"

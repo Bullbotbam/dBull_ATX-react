@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 	const navStyle = {
 		color: 'white',
+		margin: '20px',
 	};
 	return (
 		<header className="navBar container">
