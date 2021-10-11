@@ -8,7 +8,7 @@ import '../../App.css';
 
 const useStyles = makeStyles((theme) => ({
 	button: {
-		margin: theme.spacing(1),
+		margin: theme.spacing(3),
 	},
 	bodyColor: {
 		color: '#757575',
@@ -71,7 +71,7 @@ function ContactForm() {
 
 	return (
 		<Container className={classes.bodyColor}>
-			<Typography gutterBottom variant="h4">
+			<Typography gutterBottom variant="h1">
 				Hit Me Up!
 			</Typography>
 			<form ref={form} onSubmit={handleSubmit}>

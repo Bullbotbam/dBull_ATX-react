@@ -26,10 +26,10 @@ function App() {
 					<Navbar />
 
 					<Switch>
-						<Route path="/about" component={About} />
-						<Route path="/projects" component={Portfolio} />
-						<Route path="/contact" component={ContactForm} />
-						<Route path="/resume" component={Resume} />
+						<Route exact path="/" component={About} />
+						<Route exact path="/projects" component={Portfolio} />
+						<Route exact path="/contact" component={ContactForm} />
+						<Route exact path="/resume" component={Resume} />
 					</Switch>
 				</div>
 			</Router>

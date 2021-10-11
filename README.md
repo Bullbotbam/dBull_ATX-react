@@ -2,7 +2,9 @@
 
 <br>
 
-<img align="center" src='src/assets/cover/dbull_atx_logo.png' width='196' height='196'>
+<p style="align-contents: center;">
+<img href='https://determined-hypatia-94698c.netlify.app/' src='src/assets/cover/dbull_atx_logo.png' width='196' height='196'>
+</p>
 
 ## Table of Contents
 
@@ -56,7 +58,7 @@ There may be slight challenges with all functionality as of initial deployment
 
 ## Testing
 
-No testing was done for this app
+[dBull_ATX Demo](https://determined-hypatia-94698c.netlify.app/)
 
 ## Dependencies
 
