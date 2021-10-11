@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Typography } from '@material-ui/core';
 import FileDownload from '../FileDownload';
+import Divider from '@mui/material/Divider';
 
 const Resume = () => {
 	return (
@@ -17,6 +18,7 @@ const Resume = () => {
 				A LEGITIMATE ASSET.
 			</Typography>
 			<br />
+			<Divider sx={{ my: 0.5 }}>Employment History</Divider>
 			<br />
 			<Typography variant="h4">Experience</Typography>
 			<Typography variant="h5">
@@ -77,7 +79,9 @@ const Resume = () => {
 				</li>
 				<li>Developed ABM's printed media monitoring system.</li>
 			</Typography>
-			<Typography variant="h4">Education</Typography>
+			<Divider sx={{ my: 0.5 }}>Education</Divider>
+
+			{/* <Typography variant="h4">Education</Typography> */}
 			<Typography variant="h5">
 				University of Texas Austin, Texas Web Development
 			</Typography>
