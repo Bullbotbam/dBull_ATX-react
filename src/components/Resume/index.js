@@ -18,9 +18,55 @@ const Resume = () => {
 				A LEGITIMATE ASSET.
 			</Typography>
 			<br />
+			<Divider sx={{ my: 0.5 }}>Skills</Divider>
+			<br />
+			<br />
+			<Typography variant="button">
+				<li>
+					HTML, CSS, JavaScript, MERN Stack (MongoDB, Express.js, React.js,
+					Node.js), GraphQL, Local Storage, MySQL, User Authentication, JWT,
+					Progressive Web App, Bootstrap, JQuery, Mongoose, Sequelize,
+					Handlebars, MVC, OOP
+				</li>
+			</Typography>
+			<br />
+			<Divider sx={{ my: 0.5 }}>Projects</Divider>
+			<br />
+			<br />
+			<Typography variant="button">
+				<a
+					href="https://farm-gomarket.herokuapp.com/"
+					rel="noreferrer"
+					target="_blank"
+					style={{ textDecoration: 'none', color: '#757575', fontSize: '1rem' }}
+				>
+					FarmGo Market
+				</a>
+			</Typography>
+			<br />
+			<Typography variant="button">
+				<a
+					href="https://evening-oasis-97339.herokuapp.com/"
+					rel="noreferrer"
+					target="_blank"
+					style={{ textDecoration: 'none', color: '#757575', fontSize: '1rem' }}
+				>
+					High5!
+				</a>
+			</Typography>
+			<br />
+			<Typography variant="button">
+				<a
+					href="https://bullbotbam.github.io/dinner_n_movie/"
+					rel="noreferrer"
+					target="_blank"
+					style={{ textDecoration: 'none', color: '#757575', fontSize: '1rem' }}
+				>
+					Dinner 'N Movie
+				</a>
+			</Typography>
 			<Divider sx={{ my: 0.5 }}>Employment History</Divider>
 			<br />
-			<Typography variant="h4">Experience</Typography>
 			<Typography variant="h5">
 				dBull_ATX Austin, Texas Web Developer Present
 			</Typography>
@@ -31,11 +77,6 @@ const Resume = () => {
 				<li>
 					Website development proposals, designing page layout, content
 					management systems, develop client branding strategy.
-				</li>
-				<li>
-					Skills used: HTM, CSS, JavaScript, JWT, Progressive Web App,
-					Bootstrap, GraphQL, Local Storage, MySQL, User Authentication, MERN
-					Stack (MongoDB, Express.js, React.js, Node.js)
 				</li>
 			</Typography>
 			<br />

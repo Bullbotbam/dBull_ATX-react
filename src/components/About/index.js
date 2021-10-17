@@ -6,11 +6,14 @@ function About() {
 	return (
 		<Container>
 			<div className="container" style={{ color: '#757575' }}>
+				<div> </div>
 				<Box display="flex" justifyContent="center">
 					<Avatar
 						style={{
-							height: '384px',
-							width: '384px',
+							height: '10rem',
+							width: '10rem',
+							borderRadius: '50%',
+							marginTop: '3rem',
 						}}
 						alt="dbull avatar"
 						src={coverImage}

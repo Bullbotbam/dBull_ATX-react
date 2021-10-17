@@ -1,5 +1,5 @@
 .app {
-	background: url(https://images.unsplash.com/photo-1593046584078-ddc9dc530ca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+	background: url(./assets/cover/dbull_background.jpeg);
 
 	zoom: 0.75; /* all browsers */
 	-moz-transform: scale(0.75); /* Firefox */
@@ -7,8 +7,7 @@
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 0 -30rem;
-	height: 240vh;
+	height: 200vh;
 	width: auto;
 	padding: 0;
 	margin: 0;
@@ -100,16 +99,17 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 100vh;
 	padding: 10px 20px;
-	margin-top: 315px;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
 }
-.footerIcons {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-}
+
 .footerIcons > a {
 	text-decoration: none;
 	border: none;
@@ -118,7 +118,7 @@
 	margin-top: 20px;
 }
 .footerIcons > a:hover {
-	color: #df784d;
+	color: #fff;
 	text-decoration: none;
 	border: none;
 }
@@ -127,6 +127,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	color: #fff;
 }
 
 .flex-row {
