@@ -11,7 +11,7 @@ import {
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HttpIcon from '@material-ui/icons/Http';
 import useStyles from '../../styles';
-import techBlog from '../../assets/img/just-tech-blog.png';
+import farmgo from '../../assets/img/farmgo-logo.jpeg';
 import highfive from '../../assets/img/highfive.PNG';
 import deepThoughts from '../../assets/img/deep-thoughts.png';
 import dinnerNMovie from '../../assets/img/dinner_n_movie.png';
@@ -21,6 +21,15 @@ import knowMore from '../../assets/img/know-more.gif';
 const cardInfo = [
 	{
 		Project: 1,
+		name: 'FarmGo Market',
+		img: farmgo,
+		github: 'https://github.com/Bullbotbam/farm-go',
+		demo: 'https://farm-gomarket.herokuapp.com/',
+		dependencies:
+			'mongodb, express, react, node.js, graphql, apollo, mongoose, jsonwebtoken, material-ui, stripe, bcrypt',
+	},
+	{
+		Project: 2,
 		name: 'High5!',
 		img: highfive,
 		github: 'https://github.com/Bullbotbam/high-five',
@@ -29,16 +38,16 @@ const cardInfo = [
 			'node, express, mysql, mysql2, sequelize, handlebars, dotenv, connect-session-sequelize, bcrypt,',
 	},
 	{
-		Project: 2,
+		Project: 3,
 		name: 'Dinner and Movie',
 		img: dinnerNMovie,
 		github: 'https://github.com/Bullbotbam/dinner_n_movie',
 		demo: 'https://bullbotbam.github.io/dinner_n_movie/',
 		dependencies:
-			'JavaScript, CSS, HTML, Bulma, Edamam API, The Movie Database API',
+			'javascript, css, html, bulma, edamam api, the movie database api',
 	},
 	{
-		Project: 3,
+		Project: 4,
 		name: 'Deep Thoughts',
 		img: deepThoughts,
 		github: 'https://github.com/Bullbotbam/deep-thoughts',
@@ -47,30 +56,21 @@ const cardInfo = [
 			'graphql, mongoose, node.js, express, react, apollo-server-express, jsonwebtoken, material-ui, bcrypt',
 	},
 	{
-		Project: 4,
+		Project: 5,
 		name: 'Budget Tracker',
 		img: budget,
 		github: 'https://github.com/Bullbotbam/budget-tracker',
 		demo: 'https://warm-lowlands-12680.herokuapp.com/',
-		dependencies: 'node.js, express, mongoose, morgan, compression, MongoDB',
+		dependencies: 'node.js, express, mongoose, morgan, compression, mongodb',
 	},
 
 	{
-		Project: 5,
+		Project: 6,
 		name: 'Know More',
 		img: knowMore,
 		github: 'https://github.com/Bullbotbam/know-more',
 		demo: 'https://www.youtube.com/watch?v=wVESsP6NQUo',
-		dependencies: 'node.js, express, mongoose, MongoDB',
-	},
-	{
-		Project: 6,
-		name: 'Just Tech Blog',
-		img: techBlog,
-		github: 'https://github.com/Bullbotbam/just_tech_blog',
-		demo: 'https://afternoon-anchorage-01216.herokuapp.com/login',
-		dependencies:
-			'node.js, express, express-handlebars, mysql2, sequelize, dotenv, bcrypt, express-sessions, connect-sessions-sequelize',
+		dependencies: 'node.js, express, mongoose, mongodb',
 	},
 ];
 
