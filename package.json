@@ -1,7 +1,7 @@
 {
 	"homepage": "https://Bullbotbam.github.io/dbull_atx-react",
 	"name": "dbull_atx-react",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"private": true,
 	"dependencies": {
 		"@material-ui/core": "^4.12.3",
