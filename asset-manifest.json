@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/dbull_atx-react/static/css/main.b5fbdbbb.chunk.css",
-    "main.js": "/dbull_atx-react/static/js/main.fbd83a81.chunk.js",
-    "main.js.map": "/dbull_atx-react/static/js/main.fbd83a81.chunk.js.map",
-    "runtime-main.js": "/dbull_atx-react/static/js/runtime-main.e3513c13.js",
-    "runtime-main.js.map": "/dbull_atx-react/static/js/runtime-main.e3513c13.js.map",
-    "static/js/2.00503e08.chunk.js": "/dbull_atx-react/static/js/2.00503e08.chunk.js",
-    "static/js/2.00503e08.chunk.js.map": "/dbull_atx-react/static/js/2.00503e08.chunk.js.map",
-    "index.html": "/dbull_atx-react/index.html",
-    "static/css/main.b5fbdbbb.chunk.css.map": "/dbull_atx-react/static/css/main.b5fbdbbb.chunk.css.map",
-    "static/js/2.00503e08.chunk.js.LICENSE.txt": "/dbull_atx-react/static/js/2.00503e08.chunk.js.LICENSE.txt",
-    "static/media/budget_tracker.032d2d9c.gif": "/dbull_atx-react/static/media/budget_tracker.032d2d9c.gif",
-    "static/media/dbull_atx_logo.86b59963.png": "/dbull_atx-react/static/media/dbull_atx_logo.86b59963.png",
-    "static/media/deep-thoughts.7eaf1837.png": "/dbull_atx-react/static/media/deep-thoughts.7eaf1837.png",
-    "static/media/dinner_n_movie.53f34874.png": "/dbull_atx-react/static/media/dinner_n_movie.53f34874.png",
-    "static/media/highfive.c3a00818.PNG": "/dbull_atx-react/static/media/highfive.c3a00818.PNG",
-    "static/media/just-tech-blog.150a50c3.png": "/dbull_atx-react/static/media/just-tech-blog.150a50c3.png",
-    "static/media/know-more.e3635a51.gif": "/dbull_atx-react/static/media/know-more.e3635a51.gif"
+    "main.css": "/dbull_atx-react/about/static/css/main.6f27b0a9.chunk.css",
+    "main.js": "/dbull_atx-react/about/static/js/main.4ba8d959.chunk.js",
+    "main.js.map": "/dbull_atx-react/about/static/js/main.4ba8d959.chunk.js.map",
+    "runtime-main.js": "/dbull_atx-react/about/static/js/runtime-main.91f4b204.js",
+    "runtime-main.js.map": "/dbull_atx-react/about/static/js/runtime-main.91f4b204.js.map",
+    "static/js/2.fd9dd779.chunk.js": "/dbull_atx-react/about/static/js/2.fd9dd779.chunk.js",
+    "static/js/2.fd9dd779.chunk.js.map": "/dbull_atx-react/about/static/js/2.fd9dd779.chunk.js.map",
+    "index.html": "/dbull_atx-react/about/index.html",
+    "static/css/main.6f27b0a9.chunk.css.map": "/dbull_atx-react/about/static/css/main.6f27b0a9.chunk.css.map",
+    "static/js/2.fd9dd779.chunk.js.LICENSE.txt": "/dbull_atx-react/about/static/js/2.fd9dd779.chunk.js.LICENSE.txt",
+    "static/media/budget_tracker.032d2d9c.gif": "/dbull_atx-react/about/static/media/budget_tracker.032d2d9c.gif",
+    "static/media/dbull_atx_logo.73375c7d.png": "/dbull_atx-react/about/static/media/dbull_atx_logo.73375c7d.png",
+    "static/media/App.css": "/dbull_atx-react/about/static/media/dbull_background.6eda912d.jpeg",
+    "static/media/deep-thoughts.7eaf1837.png": "/dbull_atx-react/about/static/media/deep-thoughts.7eaf1837.png",
+    "static/media/dinner_n_movie.53f34874.png": "/dbull_atx-react/about/static/media/dinner_n_movie.53f34874.png",
+    "static/media/farmgo-logo.7c143b57.jpeg": "/dbull_atx-react/about/static/media/farmgo-logo.7c143b57.jpeg",
+    "static/media/highfive.c3a00818.PNG": "/dbull_atx-react/about/static/media/highfive.c3a00818.PNG",
+    "static/media/know-more.e3635a51.gif": "/dbull_atx-react/about/static/media/know-more.e3635a51.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.e3513c13.js",
-    "static/js/2.00503e08.chunk.js",
-    "static/css/main.b5fbdbbb.chunk.css",
-    "static/js/main.fbd83a81.chunk.js"
+    "static/js/runtime-main.91f4b204.js",
+    "static/js/2.fd9dd779.chunk.js",
+    "static/css/main.6f27b0a9.chunk.css",
+    "static/js/main.4ba8d959.chunk.js"
   ]
 }
