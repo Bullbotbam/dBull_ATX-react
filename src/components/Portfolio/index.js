@@ -27,6 +27,8 @@ const cardInfo = [
 		img: farmgo,
 		github: 'https://github.com/Bullbotbam/farm-go',
 		demo: 'https://farm-gomarket.herokuapp.com/',
+		description:
+			'Farm Go Market created a website to make it easier for people to get fresh groceries from local farms. The app facilitates your way to become better connected to your food source. This app allows the user to search for local  farmers markets.',
 		dependencies:
 			'mongodb, express, react, node.js, graphql, apollo, mongoose, jsonwebtoken, material-ui, stripe, bcrypt',
 	},
@@ -36,6 +38,8 @@ const cardInfo = [
 		img: highfive,
 		github: 'https://github.com/Bullbotbam/high-five',
 		demo: 'https://evening-oasis-97339.herokuapp.com/',
+		description:
+			'High5! helps usera find a close-knit group to vent or share excitement about the big win. New to town or just want to connect with new people join High5! to create blogs, interact with friends or follow current members with similar interests.',
 		dependencies:
 			'node, express, mysql, mysql2, sequelize, handlebars, dotenv, connect-session-sequelize, bcrypt,',
 	},
@@ -45,6 +49,8 @@ const cardInfo = [
 		img: dinnerNMovie,
 		github: 'https://github.com/Bullbotbam/dinner_n_movie',
 		demo: 'https://bullbotbam.github.io/dinner_n_movie/',
+		description:
+			'Dinner-n-Movie is an app intended to make date night easier. Check in to find great recipes for your favorite dishes. And grab movie suggestions for you next “Netflix and chill” session.',
 		dependencies:
 			'javascript, css, html, bulma, edamam api, the movie database api',
 	},
@@ -54,6 +60,8 @@ const cardInfo = [
 		img: deepThoughts,
 		github: 'https://github.com/Bullbotbam/deep-thoughts',
 		demo: 'https://nameless-escarpment-98092.herokuapp.com/',
+		description:
+			'A social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. Using Express.js for routing, a MongoDB database, and the Mongoose ODM.',
 		dependencies:
 			'graphql, mongoose, node.js, express, react, apollo-server-express, jsonwebtoken, material-ui, bcrypt',
 	},
@@ -63,6 +71,8 @@ const cardInfo = [
 		img: budget,
 		github: 'https://github.com/Bullbotbam/budget-tracker',
 		demo: 'https://warm-lowlands-12680.herokuapp.com/',
+		description:
+			'A progressive web for offline access and functionality. Users can add expenses and deposits to their budget with or without a connection. Users entering transactions offline are safe, information calculates when brought back online.',
 		dependencies: 'node.js, express, mongoose, morgan, compression, mongodb',
 	},
 
@@ -72,6 +82,8 @@ const cardInfo = [
 		img: knowMore,
 		github: 'https://github.com/Bullbotbam/know-more',
 		demo: 'https://www.youtube.com/watch?v=wVESsP6NQUo',
+		description:
+			'A social media app where users can share their thoughts, react to friends’ thoughts and save a list of friends to thier console.  Testing for this application were done using Insomnia',
 		dependencies: 'node.js, express, mongoose, mongodb',
 	},
 ];
@@ -105,7 +117,11 @@ const Portfolio = () => {
 												{project.name}
 											</Typography>
 											<Typography style={{ fontWeight: 'bolder' }}>
-												Dependencies:{' '}
+												Description:
+											</Typography>
+											<Typography>{project.description}</Typography>
+											<Typography style={{ fontWeight: 'bolder' }}>
+												Dependencies:
 											</Typography>
 											<Typography>{project.dependencies}</Typography>
 										</CardContent>
