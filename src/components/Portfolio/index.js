@@ -7,6 +7,7 @@ import {
 	Grid,
 	Container,
 	CardActions,
+	makeStyles,
 } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HttpIcon from '@material-ui/icons/Http';
@@ -17,6 +18,7 @@ import deepThoughts from '../../assets/img/deep-thoughts.png';
 import dinnerNMovie from '../../assets/img/dinner_n_movie.png';
 import budget from '../../assets/img/budget_tracker.gif';
 import knowMore from '../../assets/img/know-more.gif';
+import { AnimationWrapper } from 'react-hover-animation';
 
 const cardInfo = [
 	{
@@ -81,41 +83,42 @@ const Portfolio = () => {
 		<>
 			<CssBaseline />
 
-			<main>
-				<Container className={classes.cardGrid} maxWidth="xl">
+			<main style={{ margin: '1rem' }}>
+				<Container className={classes.cardGrid} maxWidth="lg">
 					<Typography variant="h2">Recent Projects</Typography>
-					<Typography variant="h4">by dBull_ATX</Typography>
 					<Grid container spacing={3} style={{ marginTop: '3rem' }}>
 						{/*  mapping over cardInfo to get each project. The key of index allows each project to have a separate key */}
 						{cardInfo.map((project, index) => (
 							<Grid item key={index} xs={12} sm={6} md={4}>
-								<Card
-									className={classes.card}
-									style={{ alignContent: 'center' }}
-								>
-									<CardMedia
-										className={classes.cardMedia}
-										image={project.img}
-										title="Image title"
-									/>
-									<CardContent className={classes.CardContent}>
-										<Typography gutterBottom variant="h5">
-											{project.name}
-										</Typography>
-										<Typography style={{ fontWeight: 'bolder' }}>
-											Dependencies:{' '}
-										</Typography>
-										<Typography>{project.dependencies}</Typography>
-									</CardContent>
-									<CardActions>
-										<a href={project.github} target="_blank" rel="noreferrer">
-											<GitHubIcon fontSize="large" />
-										</a>
-										<a href={project.demo} target="_blank" rel="noreferrer">
-											<HttpIcon fontSize="large" />
-										</a>
-									</CardActions>
-								</Card>
+								<AnimationWrapper>
+									<Card
+										className={`${classes.card} procard`}
+										style={{ alignContent: 'center' }}
+									>
+										<CardMedia
+											className={classes.cardMedia}
+											image={project.img}
+											title="Image title"
+										/>
+										<CardContent className={classes.CardContent}>
+											<Typography gutterBottom variant="h5">
+												{project.name}
+											</Typography>
+											<Typography style={{ fontWeight: 'bolder' }}>
+												Dependencies:{' '}
+											</Typography>
+											<Typography>{project.dependencies}</Typography>
+										</CardContent>
+										<CardActions>
+											<a href={project.github} target="_blank" rel="noreferrer">
+												<GitHubIcon fontSize="large" />
+											</a>
+											<a href={project.demo} target="_blank" rel="noreferrer">
+												<HttpIcon fontSize="large" />
+											</a>
+										</CardActions>
+									</Card>
+								</AnimationWrapper>
 							</Grid>
 						))}
 					</Grid>

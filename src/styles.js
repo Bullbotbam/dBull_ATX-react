@@ -29,5 +29,19 @@ const useStyles = makeStyles((theme) => ({
 		backgroundColor: theme.palette.background.paper,
 		padding: '5px 0',
 	},
+	procard: {
+		backgroundColor: '#ddd',
+		border: 'none',
+		color: 'black',
+		padding: '16px 32px',
+		textAlign: 'center',
+		fontSize: '16px',
+		margin: '4px 2px',
+		transition: '0.3s',
+		'procard:hover': {
+			backgroundColor: '#3e8e41',
+			color: 'white',
+		},
+	},
 }));
 export default useStyles;

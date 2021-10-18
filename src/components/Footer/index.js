@@ -8,9 +8,9 @@ import { IconButton } from '@material-ui/core';
 
 const Footer = () => {
 	return (
-		<footer className="footer">
+		<footer className="footer" style={{ backgroundColor: '#75757575' }}>
 			<div className="footerIcons">
-				<Typography variant="h5" align="center">
+				<Typography variant="h4" align="center">
 					&copy;2021 by dBull_ATX
 				</Typography>
 				<IconButton
