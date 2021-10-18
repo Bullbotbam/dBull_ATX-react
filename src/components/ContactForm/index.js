@@ -74,6 +74,9 @@ function ContactForm() {
 			<Typography gutterBottom variant="h1">
 				Hit Me Up!
 			</Typography>
+			<Typography gutterBottom variant="h4">
+				dbullaustintx@gmail.com
+			</Typography>
 			<form ref={form} onSubmit={handleSubmit}>
 				<div>
 					<TextField
