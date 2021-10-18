@@ -8,8 +8,8 @@ const Resume = () => {
 		<Container style={{ color: '#757575' }} className="resumeBody">
 			<Typography variant="h2">Donald Bull</Typography>
 			<Typography variant="h5">
-				Austin, Texas - www.linkedin.com/in/donaldjbull-atx ||
-				https://github.com/Bullbotbam
+				Austin, Texas - dbullaustintx@gmail.com ||
+				www.linkedin.com/in/donaldjbull-atx || https://github.com/Bullbotbam
 			</Typography>
 			<Typography variant="button">
 				SEEKING A POSITION WITH A COMPANY WHO CAN VALUE THE BROAD KNOWLEDGE BASE
