@@ -28,7 +28,7 @@ const cardInfo = [
 		github: 'https://github.com/Bullbotbam/farm-go',
 		demo: 'https://farm-gomarket.herokuapp.com/',
 		description:
-			'Farm Go Market created a website to make it easier for people to get fresh groceries from local farms. The app facilitates your way to become better connected to your food source. This app allows the user to search for local  farmers markets.',
+			'Created to make it easier for people to get fresh groceries from local farms. The app facilitates a way to become better connected to your food source, by allowing the user to search for local  farmers markets.',
 		dependencies:
 			'mongodb, express, react, node.js, graphql, apollo, mongoose, jsonwebtoken, material-ui, stripe, bcrypt',
 	},
@@ -39,7 +39,7 @@ const cardInfo = [
 		github: 'https://github.com/Bullbotbam/high-five',
 		demo: 'https://evening-oasis-97339.herokuapp.com/',
 		description:
-			'High5! helps usera find a close-knit group to vent or share excitement about the big win. New to town or just want to connect with new people join High5! to create blogs, interact with friends or follow current members with similar interests.',
+			'Helps users find a close-knit group to vent or share excitement about the big win. New to town or just want to connect with new people join High5! to create blogs, interact with friends or follow current members with similar interests.',
 		dependencies:
 			'node, express, mysql, mysql2, sequelize, handlebars, dotenv, connect-session-sequelize, bcrypt,',
 	},
