@@ -55,6 +55,13 @@ function About() {
 						This is why I consider myself a lifelong learner...
 					</Typography>
 				</div>
+				<div
+					style={{
+						display: 'flex',
+						flexDirection: 'row',
+						alignItems: 'center',
+					}}
+				></div>
 			</div>
 		</Container>
 	);
