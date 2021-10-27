@@ -5,10 +5,14 @@ import { Container, Typography, Button, TextField } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
 import emailjs from 'emailjs-com';
 import '../../App.css';
+import { ClassSharp } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
 	button: {
 		margin: theme.spacing(3),
+	},
+	bodyColor: {
+		color: '#757575',
 	},
 	bodyColor: {
 		color: '#757575',
