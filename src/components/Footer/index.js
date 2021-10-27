@@ -43,9 +43,6 @@ const Footer = () => {
 				>
 					<GitHub fontSize="large" />
 				</IconButton>
-				{/* <IconButton className="icon-btn">
-					<EmailOutlinedIcon fontSize="large" />
-				</IconButton> */}
 			</div>
 		</footer>
 	);
