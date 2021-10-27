@@ -14,6 +14,7 @@ function About() {
 							width: '10rem',
 							borderRadius: '50%',
 							marginTop: '3rem',
+							boxShadow: '0px 0px 35px #fcd121',
 						}}
 						alt="dbull avatar"
 						src={coverImage}

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { styled, createTheme } from '@mui/material/styles';
+import { styled, createTheme } from '@material-ui/core/styles';
 import {
 	AppBar,
 	Toolbar,
@@ -9,9 +9,9 @@ import {
 	Menu,
 	MenuItem,
 	Box,
-} from '@mui/material';
+} from '@material-ui/core';
 
-import MenuIcon from '@mui/icons-material/Menu';
+import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
 
 const theme = createTheme({
@@ -48,43 +48,15 @@ export default function SearchBar(theme) {
 		<Box sx={{ flexGrow: 1 }}>
 			<AppBar position="static" style={{ backgroundColor: '#757575' }}>
 				<Toolbar>
-					<Typography
-						variant="h6"
-						noWrap
-						component="div"
-						textAlign="start"
-						sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-					>
-						<Link
-							to="/"
-							style={{
-								fontFamily: 'fantasy',
-								fontSize: '2rem',
-								textDecoration: 'none',
-								padding: '0.25rem 1rem',
-								borderRadius: '.5rem',
-								border: 'none',
-								outline: 'none',
-								cursor: 'pointer',
-								margin: '0 1px',
-								color: '#fff',
-							}}
-						>
-							Donald Bull
-							<span role="img" aria-label="bull">
-								🐂
-							</span>
-						</Link>
-					</Typography>
 					<IconButton
-						size="large"
-						edge="start"
+						size=""
+						edge="end"
 						color="inherit"
 						aria-label="open drawer"
 						sx={{ mr: 2 }}
 						onClick={handleClick}
 					>
-						<MenuIcon />
+						<MenuIcon style={{ fontSize: '3rem' }} />
 					</IconButton>
 					<Menu
 						id="basic-menu"
@@ -119,6 +91,34 @@ export default function SearchBar(theme) {
 							<MenuItem className={navStyle}> Resume </MenuItem>
 						</Link>
 					</Menu>
+					<Typography
+						variant="h6"
+						noWrap
+						component="div"
+						textAlign="start"
+						sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+					>
+						<Link
+							to="/"
+							style={{
+								fontFamily: 'fantasy',
+								fontSize: '2rem',
+								textDecoration: 'none',
+								padding: '0.5rem 1rem',
+								borderRadius: '.5rem',
+								border: 'none',
+								outline: 'none',
+								cursor: 'pointer',
+								margin: '0 3rem',
+								color: '#fff',
+							}}
+						>
+							Donald Bull
+							<span role="img" aria-label="bull" style={{ margin: '0 .5rem' }}>
+								🐂
+							</span>
+						</Link>
+					</Typography>
 				</Toolbar>
 			</AppBar>
 		</Box>

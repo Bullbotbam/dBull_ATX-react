@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Typography } from '@material-ui/core';
 import FileDownload from '../FileDownload';
-import Divider from '@mui/material/Divider';
+import Divider from '@material-ui/core/Divider';
 
 const Resume = () => {
 	return (
