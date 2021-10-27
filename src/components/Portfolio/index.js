@@ -50,7 +50,7 @@ const cardInfo = [
 		github: 'https://github.com/Bullbotbam/dinner_n_movie',
 		demo: 'https://bullbotbam.github.io/dinner_n_movie/',
 		description:
-			'Dinner-n-Movie is an app intended to make date night easier. Check in to find great recipes for your favorite dishes. And grab movie suggestions for you next “Netflix and chill” session.',
+			'Dinner-n-Movie is an app intended to make date night easier. Check in to find great recipes for your favorite dishes. Grab movie suggestions for your next “Netflix and chill” session.',
 		dependencies:
 			'javascript, css, html, bulma, edamam api, the movie database api',
 	},
