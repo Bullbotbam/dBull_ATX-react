@@ -5,12 +5,19 @@ import { LinkedIn } from '@material-ui/icons';
 import { GitHub } from '@material-ui/icons';
 import { Typography } from '@material-ui/core';
 import { IconButton } from '@material-ui/core';
+// import { makeStyles } from '@material-ui/core';
 
+// const useStyles = makeStyles((theme) => ({
+// 	button: {
+// 		margin: theme.spacing(1),
+// 	},
+// }));
 const Footer = () => {
+	// const classes = useStyles();
 	return (
 		<footer className="footer" style={{ backgroundColor: '#75757575' }}>
 			<div className="footerIcons">
-				<Typography variant="h4" align="center">
+				<Typography variant="h4" align="center" gutterBottom>
 					&copy;2021 by dBull_ATX
 				</Typography>
 				<IconButton
