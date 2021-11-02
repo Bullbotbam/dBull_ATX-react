@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "86c9fe2f85d1737aace158b634cc5cec",
+    "revision": "c4544cfef0c4dc14612e3aa7b9cdd873",
     "url": "/dbull_atx-react/index.html"
   },
   {
-    "revision": "4147d3853cea3c41fae9",
+    "revision": "b57b6b458b37032203fe",
     "url": "/dbull_atx-react/static/css/main.aedc80bd.chunk.css"
   },
   {
-    "revision": "3b4774e96e128d14caf1",
-    "url": "/dbull_atx-react/static/js/2.4c81c267.chunk.js"
+    "revision": "98ad5745250922693d11",
+    "url": "/dbull_atx-react/static/js/2.081d28d9.chunk.js"
   },
   {
     "revision": "a93d0b66c07b20b71f4e7f48926ea830",
-    "url": "/dbull_atx-react/static/js/2.4c81c267.chunk.js.LICENSE.txt"
+    "url": "/dbull_atx-react/static/js/2.081d28d9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4147d3853cea3c41fae9",
-    "url": "/dbull_atx-react/static/js/main.d00266ee.chunk.js"
+    "revision": "b57b6b458b37032203fe",
+    "url": "/dbull_atx-react/static/js/main.8aa10079.chunk.js"
   },
   {
     "revision": "2de491614bff76124ab2",
