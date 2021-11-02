@@ -8,7 +8,6 @@ import {
 	Grid,
 	Container,
 	CardActions,
-	makeStyles,
 } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HttpIcon from '@material-ui/icons/Http';
@@ -127,10 +126,10 @@ const Portfolio = () => {
 											<Typography>{project.dependencies}</Typography>
 										</CardContent>
 										<CardActions>
-											<a href={project.github} target="_blank" rel="noreferrer">
+											<a href={project.github} target="_blank" rel="noopener">
 												<GitHubIcon fontSize="large" />
 											</a>
-											<a href={project.demo} target="_blank" rel="noreferrer">
+											<a href={project.demo} target="_blank" rel="noopener">
 												<HttpIcon fontSize="large" />
 											</a>
 										</CardActions>

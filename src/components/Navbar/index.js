@@ -1,11 +1,10 @@
 import * as React from 'react';
-import { styled, createTheme } from '@material-ui/core/styles';
+import { createTheme } from '@material-ui/core/styles';
 import {
 	AppBar,
 	Toolbar,
 	IconButton,
 	Typography,
-	InputBase,
 	Menu,
 	MenuItem,
 	Box,
@@ -30,7 +29,7 @@ const theme = createTheme({
 
 // const MenuOptions = ['Home', 'Projects', 'Hit Me UP', 'Resume'];
 
-export default function SearchBar(theme) {
+export default function SearchBar() {
 	const navStyle = {
 		color: '#757575',
 		margin: '20px',

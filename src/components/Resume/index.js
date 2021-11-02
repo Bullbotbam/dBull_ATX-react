@@ -12,10 +12,11 @@ const Resume = () => {
 				www.linkedin.com/in/donaldjbull-atx || https://github.com/Bullbotbam
 			</Typography>
 			<Typography variant="button">
-				SEEKING A POSITION WITH A COMPANY WHO CAN VALUE THE BROAD KNOWLEDGE BASE
-				MY 10 PLUS YEARS OF MANAGEMENT CAN BRING TO ANY TEAM. MY TECHNICAL
-				SKILLS, PROGRAM DEVELOPMENT, AND TRAINING EXPERIENCE WILL ALLOW ME TO BE
-				A LEGITIMATE ASSET.
+				Seeking to become a member of a team, where I can help influence the
+				culture and environment of a group who values the broad knowledge base
+				of my 10 plus years of management. I am a highly-coachable, customer
+				centric colleague who is eager to learn and expand my technical skills,
+				program development, and training experience.
 			</Typography>
 			<br />
 			<Divider sx={{ my: 0.5 }}>Skills</Divider>
@@ -36,7 +37,7 @@ const Resume = () => {
 			<Typography variant="button">
 				<a
 					href="https://farm-gomarket.herokuapp.com/"
-					rel="noreferrer"
+					rel="noreferrer noopener"
 					target="_blank"
 					style={{ textDecoration: 'none', color: '#757575', fontSize: '1rem' }}
 				>
@@ -47,7 +48,7 @@ const Resume = () => {
 			<Typography variant="button">
 				<a
 					href="https://evening-oasis-97339.herokuapp.com/"
-					rel="noreferrer"
+					rel="noreferrer noopener"
 					target="_blank"
 					style={{ textDecoration: 'none', color: '#757575', fontSize: '1rem' }}
 				>
@@ -58,7 +59,7 @@ const Resume = () => {
 			<Typography variant="button">
 				<a
 					href="https://bullbotbam.github.io/dinner_n_movie/"
-					rel="noreferrer"
+					rel="noreferrer noopener"
 					target="_blank"
 					style={{ textDecoration: 'none', color: '#757575', fontSize: '1rem' }}
 				>
@@ -86,20 +87,18 @@ const Resume = () => {
 			<Typography variant="button">
 				<li>
 					Managed databases and company’s online presence as well as created
-					content along with automation for over 25 HOA and COA communities.{' '}
+					content along with automation for over 25 HOA and COA communities.
 				</li>
 				<li>
 					Created workflow policies that leveraged relationships troubleshoot
 					challenges for external/internal customers.
 				</li>
 				<li>
-					{' '}
 					Supervised data collection of user database, community websites, event
-					management CMS tools.{' '}
+					management CMS tools.
 				</li>
 				<li>Developed automated procedural RFP processes.</li>
 				<li>
-					{' '}
 					Evaluated and administered all hardware, software installation, web
 					applications enabled to operate client services.
 				</li>
@@ -115,7 +114,6 @@ const Resume = () => {
 				</li>
 				<li>Advanced Color Specialist, maintence system trainer.</li>
 				<li>
-					{' '}
 					Field Supervisor, specializing in hardware Network connectivity.
 				</li>
 				<li>Developed ABM's printed media monitoring system.</li>

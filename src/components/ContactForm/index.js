@@ -13,9 +13,6 @@ const useStyles = makeStyles((theme) => ({
 	bodyColor: {
 		color: '#757575',
 	},
-	bodyColor: {
-		color: '#757575',
-	},
 }));
 
 function ContactForm() {
