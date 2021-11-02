@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Typography, Avatar, Box } from '@material-ui/core';
 import coverImage from '../../assets/cover/dbull_atx_logo.png';
 
-function About() {
+function Home() {
 	return (
 		<Container>
 			<div className="container" style={{ color: '#757575' }}>
@@ -64,4 +64,4 @@ function About() {
 	);
 }
 
-export default About;
+export default Home;

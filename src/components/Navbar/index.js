@@ -50,7 +50,7 @@ export default function SearchBar() {
 						}}
 					>
 						<Link to="/" style={{ textDecoration: 'none', color: '#757575' }}>
-							<MenuItem className={navStyle}>About</MenuItem>
+							<MenuItem className={navStyle}>Home</MenuItem>
 						</Link>
 
 						<Link
