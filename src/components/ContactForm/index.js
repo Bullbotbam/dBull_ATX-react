@@ -86,6 +86,7 @@ function ContactForm() {
 						label="Full name"
 						variant="outlined"
 						defaultValue={name}
+						style={{ background: '#fff' }}
 					/>
 				</div>
 				<div>
@@ -96,6 +97,7 @@ function ContactForm() {
 						label="Email address"
 						variant="outlined"
 						defaultValue={email}
+						style={{ background: '#fff' }}
 					/>
 				</div>
 				<div>
@@ -110,6 +112,7 @@ function ContactForm() {
 						multiline
 						rows={6}
 						defaultValue={message}
+						style={{ background: '#fff' }}
 					/>
 				</div>
 				{errorMessage && (

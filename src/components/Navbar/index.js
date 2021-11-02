@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { createTheme } from '@material-ui/core/styles';
 import {
 	AppBar,
 	Toolbar,
@@ -12,22 +11,6 @@ import {
 
 import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
-
-const theme = createTheme({
-	palette: {
-		primary: {
-			main: '#757575',
-		},
-		secondary: {
-			main: '#616161',
-		},
-		MenuItem: {
-			textDecoration: 'none',
-		},
-	},
-});
-
-// const MenuOptions = ['Home', 'Projects', 'Hit Me UP', 'Resume'];
 
 export default function SearchBar() {
 	const navStyle = {

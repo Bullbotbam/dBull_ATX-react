@@ -32,7 +32,10 @@ function About() {
 
 					<Typography
 						className="about-body"
-						style={{ textAlign: 'justify' }}
+						style={{
+							textAlign: 'justify',
+							backgroundColor: 'rgba(252, 252, 252, 0.5)',
+						}}
 						variant="h5"
 					>
 						My broad knowledge base and critical thinking skills have allowed me

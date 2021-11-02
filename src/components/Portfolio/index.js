@@ -126,10 +126,18 @@ const Portfolio = () => {
 											<Typography>{project.dependencies}</Typography>
 										</CardContent>
 										<CardActions>
-											<a href={project.github} target="_blank" rel="noopener">
+											<a
+												href={project.github}
+												target="_blank"
+												rel="noopener noreferrer"
+											>
 												<GitHubIcon fontSize="large" />
 											</a>
-											<a href={project.demo} target="_blank" rel="noopener">
+											<a
+												href={project.demo}
+												target="_blank"
+												rel="noopener noreferrer"
+											>
 												<HttpIcon fontSize="large" />
 											</a>
 										</CardActions>
