@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b9cab77630184de381da1262d272d2d",
+    "revision": "b2143442716dce5a20a9aa6f4c7fdbe2",
     "url": "/dbull_atx-react/index.html"
   },
   {
-    "revision": "27f1dad5816ae8b4d364",
+    "revision": "a83ea5b697d0cde5a87e",
     "url": "/dbull_atx-react/static/css/main.aedc80bd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dbull_atx-react/static/js/2.96b4afb2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "27f1dad5816ae8b4d364",
-    "url": "/dbull_atx-react/static/js/main.742bebc1.chunk.js"
+    "revision": "a83ea5b697d0cde5a87e",
+    "url": "/dbull_atx-react/static/js/main.08e7e214.chunk.js"
   },
   {
     "revision": "2de491614bff76124ab2",

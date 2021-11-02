@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dbull_atx-react/precache-manifest.d34ba88c62b430e52be136620450f708.js"
+  "/dbull_atx-react/precache-manifest.b2b7015e448cb0e386bd3e41a96a87b8.js"
 );
 
 self.addEventListener('message', (event) => {

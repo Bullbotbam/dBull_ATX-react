@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dbull_atx-react/static/css/main.aedc80bd.chunk.css",
-    "main.js": "/dbull_atx-react/static/js/main.742bebc1.chunk.js",
-    "main.js.map": "/dbull_atx-react/static/js/main.742bebc1.chunk.js.map",
+    "main.js": "/dbull_atx-react/static/js/main.08e7e214.chunk.js",
+    "main.js.map": "/dbull_atx-react/static/js/main.08e7e214.chunk.js.map",
     "runtime-main.js": "/dbull_atx-react/static/js/runtime-main.003f65c9.js",
     "runtime-main.js.map": "/dbull_atx-react/static/js/runtime-main.003f65c9.js.map",
     "static/js/2.96b4afb2.chunk.js": "/dbull_atx-react/static/js/2.96b4afb2.chunk.js",
     "static/js/2.96b4afb2.chunk.js.map": "/dbull_atx-react/static/js/2.96b4afb2.chunk.js.map",
     "index.html": "/dbull_atx-react/index.html",
-    "precache-manifest.d34ba88c62b430e52be136620450f708.js": "/dbull_atx-react/precache-manifest.d34ba88c62b430e52be136620450f708.js",
+    "precache-manifest.b2b7015e448cb0e386bd3e41a96a87b8.js": "/dbull_atx-react/precache-manifest.b2b7015e448cb0e386bd3e41a96a87b8.js",
     "service-worker.js": "/dbull_atx-react/service-worker.js",
     "static/css/main.aedc80bd.chunk.css.map": "/dbull_atx-react/static/css/main.aedc80bd.chunk.css.map",
     "static/js/2.96b4afb2.chunk.js.LICENSE.txt": "/dbull_atx-react/static/js/2.96b4afb2.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.003f65c9.js",
     "static/js/2.96b4afb2.chunk.js",
     "static/css/main.aedc80bd.chunk.css",
-    "static/js/main.742bebc1.chunk.js"
+    "static/js/main.08e7e214.chunk.js"
   ]
 }
