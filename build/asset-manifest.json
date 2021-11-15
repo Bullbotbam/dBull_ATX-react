@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/dbull_atx-react/static/css/main.aedc80bd.chunk.css",
+    "main.js": "/dbull_atx-react/static/js/main.08e7e214.chunk.js",
+    "main.js.map": "/dbull_atx-react/static/js/main.08e7e214.chunk.js.map",
+    "runtime-main.js": "/dbull_atx-react/static/js/runtime-main.003f65c9.js",
+    "runtime-main.js.map": "/dbull_atx-react/static/js/runtime-main.003f65c9.js.map",
+    "static/js/2.96b4afb2.chunk.js": "/dbull_atx-react/static/js/2.96b4afb2.chunk.js",
+    "static/js/2.96b4afb2.chunk.js.map": "/dbull_atx-react/static/js/2.96b4afb2.chunk.js.map",
+    "index.html": "/dbull_atx-react/index.html",
+    "precache-manifest.b2b7015e448cb0e386bd3e41a96a87b8.js": "/dbull_atx-react/precache-manifest.b2b7015e448cb0e386bd3e41a96a87b8.js",
+    "service-worker.js": "/dbull_atx-react/service-worker.js",
+    "static/css/main.aedc80bd.chunk.css.map": "/dbull_atx-react/static/css/main.aedc80bd.chunk.css.map",
+    "static/js/2.96b4afb2.chunk.js.LICENSE.txt": "/dbull_atx-react/static/js/2.96b4afb2.chunk.js.LICENSE.txt",
+    "static/media/budget_tracker.gif": "/dbull_atx-react/static/media/budget_tracker.512ff917.gif",
+    "static/media/dbull_atx_logo.png": "/dbull_atx-react/static/media/dbull_atx_logo.bf07f0e1.png",
+    "static/media/App.css": "/dbull_atx-react/static/media/dbull_background.56a7147d.jpeg",
+    "static/media/deep-thoughts.png": "/dbull_atx-react/static/media/deep-thoughts.e80a918a.png",
+    "static/media/dinner_n_movie.png": "/dbull_atx-react/static/media/dinner_n_movie.543173e8.png",
+    "static/media/farmgo-logo.jpeg": "/dbull_atx-react/static/media/farmgo-logo.66a1b2a2.jpeg",
+    "static/media/highfive.PNG": "/dbull_atx-react/static/media/highfive.cd076224.PNG",
+    "static/media/know-more.gif": "/dbull_atx-react/static/media/know-more.88bb7f3e.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.003f65c9.js",
+    "static/js/2.96b4afb2.chunk.js",
+    "static/css/main.aedc80bd.chunk.css",
+    "static/js/main.08e7e214.chunk.js"
+  ]
+}
