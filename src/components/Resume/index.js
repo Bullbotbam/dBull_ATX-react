@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Container, Typography, Tooltip } from '@material-ui/core';
+import { Container, Typography, Tooltip } from '@material-ui/core';
 import FileDownload from '../FileDownload';
 import Divider from '@material-ui/core/Divider';
 import {
@@ -233,4 +233,3 @@ const Resume = () => {
 };
 
 export default Resume;
-
